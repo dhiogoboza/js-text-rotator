@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>JS Text Rotator</title>
+        <meta charset="utf-8">
+        <meta id="theme-color" name="theme-color" content="#fff">
+        <meta itemprop="name" content="JS Text Rotator">
+        <script src="js/text-rotator.js"></script>
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+    <body>
+        <div id="container">
+            <h1>JS Text Rotator</h1>
+
+            <p>A simple text rotator in vanilla javascript.</p>
+
+            <span id="text-rotating">Apple,Orange,Banana</span>
+
+            <a href="https://github.com/dhiogoboza/js-text-rotator" title="View source for this page on GitHub" id="viewSource">View source on GitHub</a>
+        </div>
+        <script>
+            new TextRotator(document.getElementById("text-rotating")).start();
+        </script>
+    </body>
+</html>
