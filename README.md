@@ -29,7 +29,7 @@ new TextRotator(document.getElementById("your-container"), {
 }).start();
 ```
 
-A demo titled `index.html` is included in this repository. Open it to see the end-result.
+A demo titled `index.html` is included in this repository. Open it to see the end-result. Live demo: [https://dhiogoboza.github.io/js-text-rotator/](https://dhiogoboza.github.io/js-text-rotator).
 
 License
 -------
